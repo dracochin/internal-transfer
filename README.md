@@ -24,14 +24,14 @@ A secure internal transfers system written in Go, using PostgreSQL. This service
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-org/internal-transfer-system.git
+git clone https://github.com/dracochin/internal-transfer.git
 cd internal-transfer-system
 ```
 
 ### 2. Create database schema
 
 ```bash
-psql -U your_user -d your_db -f db/schema.sql
+psql -U username -d dbname -f db/schema.sql
 ```
 
 ### 3. Set the environment variable
